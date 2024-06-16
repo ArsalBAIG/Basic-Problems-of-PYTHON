@@ -19,4 +19,10 @@ y = list[x]
 for i in x[0::2]:
     print(i)
 # Removing first n character from a string
+def remove_chars(starter, n):
+    return starter[n:]
 
+original_string = "Hello There!"
+n = 5
+new_str = remove_chars(original_string, n)
+print(new_str)
