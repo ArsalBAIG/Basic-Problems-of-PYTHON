@@ -1,16 +1,16 @@
-# Calculate the multiplication of two numbers.
+1# Calculate the multiplication of two numbers.
 num1 = 20
 num2 = 30
 
 print(num1 * num2)
-# Print the sum of current number and previous number
+2# Print the sum of current number and previous number
 previous_num = 0
 
 for i in range(1, 11):
     sum = i + previous_num
     print("Current Num: ", i, "Previous Num: ", previous_num, "Sum will be: ", sum)
     previous_num = i
-# Print char at index present at even indexes.
+3# Print char at index present at even indexes.
 x = input("Enter a charater? ")
 print(x)
 
@@ -18,7 +18,7 @@ y = list[x]
 #Here, :: means step value that means it will starts from index 0 and then selects every 2nd value or even value.
 for i in x[0::2]:
     print(i)
-# Removing first n character from a string
+4# Removing first n character from a string
 def remove_chars(starter, n):
     #Here, starter indicates the input and [n:] indicates the removal of n
     return starter[n:]
@@ -27,3 +27,13 @@ original_string = "Hello There!"
 n = 5
 new_str = remove_chars(original_string, n)
 print(new_str)
+5# Checking is first and last index are same then print True othewise False
+def first_last(number):
+    return number[0] == number[-1]
+
+number_x = [10, 20, 30, 10]
+print(first_last(number_x))
+
+number_y = [20, 25, 14, 50]
+print(first_last(number_y))
+
