@@ -20,6 +20,7 @@ for i in x[0::2]:
     print(i)
 # Removing first n character from a string
 def remove_chars(starter, n):
+    #Here, starter indicates the input and [n:] indicates the removal of n
     return starter[n:]
 
 original_string = "Hello There!"
