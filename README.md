@@ -36,4 +36,41 @@ print(first_last(number_x))
 
 number_y = [20, 25, 14, 50]
 print(first_last(number_y))
+6# Display number divisible by 5 from a list
+nums = [10, 58, 45, 69, 20]
+print("Number divisible by 5 are: ")
+for num in nums:
+    if num % 5 == 0:
+        print(num)
+7# Write a program to find how many times substring “Emma” appears in the given string.
+str_x = "Emma is good developer. Emma is a writer"
+y = str_x.count("Emma")
+print(y)
 
+8# Print the following pattern
+for num in range(5):
+    for i in range(num):
+#Here, end= ensure that num are prited on same line.
+        print(num, end=" ")
+    print("\n")
+
+9# Write a program to check if the given number is a palindrome number.
+def is_palindrome(number):
+    print("Original number is: ", number)
+    original_number = number
+
+    reverse_num = 0
+    while number > 0:
+        remainder = number % 10
+        reverse_num = (reverse_num * 10) + remainder
+        number = number // 10
+
+    if  original_number == reverse_num:
+            print("Number is palindrome")
+    else:
+            print("Number is'nt palindrome.")
+
+answer = int(input("Enter any +ive no?"))
+is_palindrome(answer)
+
+10# 
