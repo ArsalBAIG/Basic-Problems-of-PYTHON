@@ -14,6 +14,7 @@ for i in range(1, 11):
 x = input("Enter a charater? ")
 print(x)
 
+#Here, we convert string into list
 y = list[x]
 #Here, :: means step value that means it will starts from index 0 and then selects every 2nd value or even value.
 for i in x[0::2]:
