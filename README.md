@@ -89,4 +89,34 @@ for num in list2:
         final_list.append(num)
 
 print(final_list)
+11# Write a Program to extract each digit from an integer in the reverse order.
+number = 7489
+print(number)
+while number > 0:
+    digits = number % 10
+    
+    number = number // 10
+    print(digits, end=" ")
+
+12# Calculate income tax for the given income by adhering to the rules: suppose the taxable income is 45000, and the income tax payable is
+10000*0% + 10000*10%  + 25000*20% = $6000.
+
+amount = 45000
+tax_pay = 0
+print("Total amount is: "amount)
+
+# First 10000$ no tax
+if amount <= 10000:
+    tax_pay = 0
+#Next 10000$ pe 10000 deduct and tax is also implemented.
+elif amount <= 20000:
+    x = amount = 10000
+    tax_pay = x * 0.10
+#Next remaning$ pe 20000 deduct and tax is also implemented.
+else:
+    tax_pay += (amount - 20000) * 0.20
+
+print("Total tax is: ", tax_pay)
+
+13# Print multiplication table from 1 to 10
 
