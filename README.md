@@ -127,10 +127,20 @@ for i in range(1, 11):
 
 15#  Write a function called exponent(base, exp) that returns an int value of base raises to the power of exp
 def exponent(base, exp):
+# Here, ** means base raise to the power of exponent.
     return base ** exp
 
 base = 2
 exp = 5
 output = exponent(2, 5)
 print(f"The result is: {output}")
+                                            # Input and Output Excercise #
+1# Write a program to accept two numbers from the user and calculate multiplication.
+num1 = int(input("Enter first number?"))
+num2 = int(input("Enter second number?"))
 
+result = num1 * num2
+print(result)
+
+2#  Display three string “Name”, “Is”, “James” as “Name**Is**James”
+print(f"Name", "is", "James", sep="**")
