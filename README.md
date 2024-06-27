@@ -124,3 +124,13 @@ for i in range(1, 11):
     for j in range(1, 11):
         print(i * j, end= " ")
     print("\t")
+
+15#  Write a function called exponent(base, exp) that returns an int value of base raises to the power of exp
+def exponent(base, exp):
+    return base ** exp
+
+base = 2
+exp = 5
+output = exponent(2, 5)
+print(f"The result is: {output}")
+
