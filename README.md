@@ -149,3 +149,6 @@ print(f"Name", "is", "James", sep="**")
 decimal = int(input("Enter any decimal number?"))
 octal = oct(decimal)
 print("Octal NO: ", octal)
+4# show upto 2 decimal places of any floating number? 
+float_num = 5.12654
+print(f"Floating number is: {float_num:.2f}")
