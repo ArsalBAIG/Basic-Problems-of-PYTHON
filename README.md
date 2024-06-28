@@ -144,3 +144,8 @@ print(result)
 
 2#  Display three string “Name”, “Is”, “James” as “Name**Is**James”
 print(f"Name", "is", "James", sep="**")
+
+3# Convert decimal num to octal num? 
+decimal = int(input("Enter any decimal number?"))
+octal = oct(decimal)
+print("Octal NO: ", octal)
