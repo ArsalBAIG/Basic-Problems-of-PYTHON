@@ -199,6 +199,7 @@ print(f"The price of this item is {price} and your total is {total_price}")
 import os
 file_path = "app.txt"
 try:
+#Here, os.path.getsize gets the size in bytes of the file_path.
     file_size = os.path.getsize(file_path)
     if file_size == 0:
         print("File is Empty! ")
