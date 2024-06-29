@@ -152,3 +152,17 @@ print("Octal NO: ", octal)
 4# show upto 2 decimal places of any floating number? 
 float_num = 5.12654
 print(f"Floating number is: {float_num:.2f}")
+
+5#  Accept a list of 5 float numbers as an input from the user
+
+floatingN = input("Enter 5 floating numbers? ")
+stringN = floatingN.split()
+
+try:
+    float_num = [float(nums) for nums in stringN]
+    if len(float_num) != 5:
+        print("Enter exactly 5 numbers. ")
+    else:
+        print("Floating nums are: ", float_num)
+except ValueError:
+    print("Please enter valid floating no. ")
