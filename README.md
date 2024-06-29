@@ -188,3 +188,8 @@ print("Name2:", str2)
 print("Name3:", str3)
 
 8# Format variables using a string.format() method.
+
+price = 90
+total_price = 150
+
+print(f"The price of this item is {price} and your total is {total_price}")
