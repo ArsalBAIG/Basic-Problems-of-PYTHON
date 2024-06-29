@@ -159,6 +159,7 @@ floatingN = input("Enter 5 floating numbers? ")
 stringN = floatingN.split()
 
 try:
+#float(nums) means floating-type is applied to each element in stringN which is nums.
     float_num = [float(nums) for nums in stringN]
     if len(float_num) != 5:
         print("Enter exactly 5 numbers. ")
@@ -166,3 +167,4 @@ try:
         print("Floating nums are: ", float_num)
 except ValueError:
     print("Please enter valid floating no. ")
+6# Write all content of a given file into a new file by skipping line number 5
