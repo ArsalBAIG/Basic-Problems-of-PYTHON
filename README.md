@@ -168,3 +168,23 @@ try:
 except ValueError:
     print("Please enter valid floating no. ")
 6# Write all content of a given file into a new file by skipping line number 5
+
+with open("mymodule.txt", "r") as fp:
+    lines = fp.readlines()
+with open("app.txt", "w") as fp:
+    count = 0
+    for line in lines:
+#Here, count == 4 means 5 value and continue means skip this value..
+        if count == 4:
+            continue
+        else:
+            fp.write(line)
+
+7#  Accept any three string from one input() call
+
+str1, str2, str3 = input("Enter any three string names? ").split()
+print("Name1:", str1)
+print("Name2:", str2)
+print("Name3:", str3)
+
+8# Format variables using a string.format() method.
