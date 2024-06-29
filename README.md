@@ -193,3 +193,16 @@ price = 90
 total_price = 150
 
 print(f"The price of this item is {price} and your total is {total_price}")
+
+8# Check wheather a file is empty or not ?
+
+import os
+file_path = "app.txt"
+try:
+    file_size = os.path.getsize(file_path)
+    if file_size == 0:
+        print("File is Empty! ")
+    else:
+        print("File is not Empty! ")
+except FileNotFoundError:
+    print("File Not Found. ")
