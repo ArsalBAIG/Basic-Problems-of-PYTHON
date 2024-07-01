@@ -213,3 +213,19 @@ except FileNotFoundError:
 with open("mymodule.txt", "r") as fp:
     lines = fp.readlines()
     print(lines[3])
+                                                # **Loop Exercise**
+
+1#  Print First 10 natural numbers using while loop.
+i = 1
+while i < 11:
+    print(i)
+    i += 1
+
+2# Print the following pattern
+Write a program to print the following number pattern using a loop.
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5
+
