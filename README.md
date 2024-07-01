@@ -13,7 +13,7 @@ for i in range(1, 11):
 3# Print char at index present at even indexes.
 x = input("Enter a charater? ")
 print(x)
-
+    
 #Here, we convert string into list
 y = list[x]
 #Here, :: means step value that means it will starts from index 0 and then selects every 2nd value or even value.
@@ -207,3 +207,9 @@ try:
         print("File is not Empty! ")
 except FileNotFoundError:
     print("File Not Found. ")
+
+9# Read line number 4 from the following file.
+
+with open("mymodule.txt", "r") as fp:
+    lines = fp.readlines()
+    print(lines[3])
