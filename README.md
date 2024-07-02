@@ -248,3 +248,13 @@ for i in range(1, 11, 1):
     print(product)
 5# Display numbers from a list using loop
 
+numbers = [12, 75, 150, 180, 145, 525, 50]
+for i in numbers:
+    if i > 150:
+        continue
+    elif i > 500:
+        break
+    elif i % 5 == 0:
+        print(i)
+
+6# Count the total number of digits in a number
