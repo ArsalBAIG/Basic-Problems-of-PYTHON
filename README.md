@@ -279,3 +279,8 @@ for i in range(5, 0, -1):
     print()
 
 8# Print list in reverse order using a loop
+
+list1 = [10, 20, 30, 40, 50]
+newList = reversed(list1)
+for items in newList:
+    print(items)
