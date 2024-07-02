@@ -234,3 +234,11 @@ for i in range(1, 6):
     for j in range(1, i + 1):
         print(j, end=" ")
     print()
+3#  Calculate the sum of all numbers from 1 to a given number.
+
+i = int(input("Enter any number? "))
+output = sum(range(1, i + 1))
+print(f"Sum is: {output}")
+
+4#  Write a program to print multiplication table of a given number
+
