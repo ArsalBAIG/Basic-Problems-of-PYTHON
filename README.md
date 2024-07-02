@@ -258,3 +258,19 @@ for i in numbers:
         print(i)
 
 6# Count the total number of digits in a number
+
+num = 9876
+count = 0
+while num > 0:
+    num //= 10
+    count += 1
+
+7# print this pattern:
+5 4 3 2 1 
+4 3 2 1 
+3 2 1 
+2 1 
+1
+
+
+print(f"Total no of digits is: {count}")
