@@ -229,3 +229,8 @@ Write a program to print the following number pattern using a loop.
 1 2 3 4 
 1 2 3 4 5
 
+for i in range(1, 6):
+# here, i + 1 means that if i is 1 then loop runs once, if 2 loop runs 2 time upto soon.
+    for j in range(1, i + 1):
+        print(j, end=" ")
+    print()
