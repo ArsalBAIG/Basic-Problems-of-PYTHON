@@ -15,13 +15,13 @@ x = input("Enter a charater? ")
 print(x)
     
 #Here, we convert string into list
-y = list[x]
+y = list(x)
 #Here, :: means step value that means it will starts from index 0 and then selects every 2nd value or even value.
 for i in x[0::2]:
     print(i)
 4# Removing first n character from a string
 def remove_chars(starter, n):
-    #Here, starter indicates the input and [n:] indicates the removal of n
+    #Here, [n:] indicates that list start from n & then continue to the end of list.
     return starter[n:]
 
 original_string = "Hello There!"
