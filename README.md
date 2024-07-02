@@ -284,3 +284,4 @@ list1 = [10, 20, 30, 40, 50]
 newList = reversed(list1)
 for items in newList:
     print(items)
+9#  Display numbers from -10 to -1 using for loop
