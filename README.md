@@ -242,3 +242,9 @@ print(f"Sum is: {output}")
 
 4#  Write a program to print multiplication table of a given number
 
+number = 9
+for i in range(1, 11, 1):
+    product = i * number
+    print(product)
+5# Display numbers from a list using loop
+
