@@ -297,3 +297,14 @@ else:
     print("Done!")
 
 11# Write a program to display all prime numbers within a range
+start = 10
+end = 30
+print(f"Prime no starting from {start} and ending in {end}")
+# Here, end + 1 ensure that it will include the end value.
+for num in range(start, end + 1):
+    if num > 1:
+        for i in range(2, num):
+            if num % i == 0:
+                break
+        else:
+            print(num)
