@@ -303,6 +303,8 @@ print(f"Prime no starting from {start} and ending in {end}")
 # Here, end + 1 ensure that it will include the end value.
 for num in range(start, end + 1):
     if num > 1:
+# Here, Suppose num is 10:
+# range(2, 10) generates the sequence: 2, 3, 4, 5, 6, 7, 8, 9.
         for i in range(2, num):
             if num % i == 0:
                 break
