@@ -134,7 +134,7 @@ base = 2
 exp = 5
 output = exponent(2, 5)
 print(f"The result is: {output}")
-                                            # Input and Output Excercise #
+                                            # **Input and Output Excercise** #
 1# Write a program to accept two numbers from the user and calculate multiplication.
 num1 = int(input("Enter first number?"))
 num2 = int(input("Enter second number?"))
