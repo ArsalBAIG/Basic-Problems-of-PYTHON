@@ -337,3 +337,11 @@ while user_input > 0:
 print(remainder)
 
 15# Use a loop to display elements from a given list present at odd index positions 
+
+my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+
+for i in my_list[1::2]:
+    print(i, end=" ")
+
+16#  Calculate the cube of all numbers from 1 to a given number
+
