@@ -345,3 +345,8 @@ for i in my_list[1::2]:
 
 16#  Calculate the cube of all numbers from 1 to a given number
 
+givenNo = 9
+for i in range(1, givenNo + 1):
+    print("Cubic will be: ", i*i*i)
+
+17# Find the sum of the series upto n terms
