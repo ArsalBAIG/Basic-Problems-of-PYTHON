@@ -295,3 +295,5 @@ for num in range(-10, 0, 1):
     print(num)
 else:
     print("Done!")
+
+11# Write a program to display all prime numbers within a range
