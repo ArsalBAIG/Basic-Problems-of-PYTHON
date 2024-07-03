@@ -350,3 +350,24 @@ for i in range(1, givenNo + 1):
     print("Cubic will be: ", i*i*i)
 
 17# Find the sum of the series upto n terms
+
+n = int(input("Enter any no? "))
+print(n)
+
+sum_series = 0
+for i in range(1, n + 1):
+    sum_series += 1 / i
+
+print(f"Sum of series is: {round(sum_series, 2)}")
+
+18# Print the following pattern
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+*
+
