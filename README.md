@@ -310,3 +310,5 @@ for num in range(start, end + 1):
                 break
         else:
             print(num)
+
+13# Find the factorial of a given number
