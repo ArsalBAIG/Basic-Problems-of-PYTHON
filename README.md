@@ -312,3 +312,16 @@ for num in range(start, end + 1):
             print(num)
 
 13# Find the factorial of a given number
+
+num = 6
+factorial = 1
+if num < 0:
+    print("Factorial doesn't exits.")
+elif num == 0:
+    print("Factorial of 0 is 1")
+else:
+    for i in range(1, num + 1):
+        factorial *= i
+print(f"Factorial of {num} is: {factorial}")
+
+14#  Reverse a given integer number where given no is: 76542
