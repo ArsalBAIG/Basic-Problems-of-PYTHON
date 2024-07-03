@@ -325,3 +325,15 @@ else:
 print(f"Factorial of {num} is: {factorial}")
 
 14#  Reverse a given integer number where given no is: 76542
+
+user_input = int(input("Enter any no? "))
+remainder = 0
+print(user_input)
+
+while user_input > 0:
+    digit = user_input % 10
+    remainder = (remainder * 10) + digit
+    user_input //= 10
+print(remainder)
+
+15# Use a loop to display elements from a given list present at odd index positions 
