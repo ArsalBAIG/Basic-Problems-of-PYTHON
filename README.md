@@ -174,7 +174,7 @@ with open("mymodule.txt", "r") as fp:
 with open("app.txt", "w") as fp:
     count = 0
     for line in lines:
-#Here, count == 4 means 5 value and continue means skip this value..
+#Here, count == 4 means 5th value and continue means skip this value..
         if count == 4:
             continue
         else:
